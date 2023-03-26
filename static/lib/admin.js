@@ -1,15 +1,15 @@
-'use strict';
+"use strict";
 
-define('admin/plugins/gravatar', ['settings'], function (Settings) {
-	var ACP = {};
+define("admin/plugins/cravatar", ["settings"], function (Settings) {
+  var ACP = {};
 
-	ACP.init = function () {
-		Settings.load('gravatar', $('.gravatar-settings'));
+  ACP.init = function () {
+    Settings.load("cravatar", $(".cravatar-settings"));
 
-		$('#save').on('click', function () {
-			Settings.save('gravatar', $('.gravatar-settings'));
-		});
-	};
+    $("#save").on("click", function () {
+      Settings.save("cravatar", $(".cravatar-settings"));
+    });
+  };
 
-	return ACP;
+  return ACP;
 });

@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-gravatar",
-	"url": "https://github.com/NodeBB/nodebb-plugin-gravatar",
+	"id": "nodebb-plugin-cravatar",
+	"url": "https://github.com/NodeBB/nodebb-plugin-cravatar",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
@@ -11,6 +11,6 @@
 	],
 	"templates": "static/templates",
 	"modules": {
-		"../admin/plugins/gravatar.js": "./static/lib/admin.js"
+		"../admin/plugins/cravatar.js": "./static/lib/admin.js"
 	}
 }

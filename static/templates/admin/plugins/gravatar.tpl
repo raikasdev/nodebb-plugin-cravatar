@@ -1,14 +1,14 @@
-<form role="form" class="gravatar-settings">
+<form role="form" class="cravatar-settings">
 	<div class="row">
-		<div class="col-12 col-sm-2 settings-header">Gravatar</div>
+		<div class="col-12 col-sm-2 settings-header">Cravatar</div>
 		<div class="col-12 col-sm-10">
 			<div class="form-check form-switch mb-3">
 				<input type="checkbox" class="form-check-input" id="default" name="default">
-				<label for="default" class="form-check-label">Use Gravatar as default user picture</label>
+				<label for="default" class="form-check-label">Use Cravatar as default user picture</label>
 			</div>
 			<div class="form-check form-switch mb-3">
 				<input type="checkbox" class="form-check-input" id="force" name="force">
-				<label for="force" class="form-check-label">Force all users to use Gravatar</label>
+				<label for="force" class="form-check-label">Force all users to use Cravatar</label>
 			</div>
 		</div>
 	</div>
@@ -17,7 +17,7 @@
 		<div class="col-12 col-sm-10">
 			<div class="mb-3">
 				<select name="iconDefault" class="form-select">
-					<option value="">Return the generic Gravatar image</option>
+					<option value="">Return the generic Cravatar image</option>
 					<option value="404">Return a broken image if no image is set</option>
 					<option value="mm">Mystery Man: A simple, cartoon-style silhouetted outline of a person</option>
 					<option value="identicon">Identicon: A geometric pattern based on an email hash</option>

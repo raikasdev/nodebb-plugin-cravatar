@@ -1,16 +1,16 @@
 {
-  "name": "nodebb-plugin-gravatar",
+  "name": "nodebb-plugin-cravatar",
   "version": "4.0.0",
-  "description": "Allows users to use their Gravatar on your forum",
+  "description": "Allows users to use their Cravatar on your forum",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-gravatar"
+    "url": "https://github.com/julianlam/nodebb-plugin-cravatar"
   },
   "keywords": [
     "nodebb",
     "plugin",
-    "gravatar"
+    "cravatar"
   ],
   "author": {
     "name": "Julian Lam",
@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-gravatar/issues"
+    "url": "https://github.com/julianlam/nodebb-plugin-cravatar/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {

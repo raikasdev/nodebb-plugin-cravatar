@@ -1,3 +1,3 @@
-# Gravatar
+# Cravatar
 
-Allows users to use their Gravatar on your forum
+Allows users to use their Cravatar on your forum
