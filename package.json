@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-cravatar",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Allows users to use their Cravatar on your forum",
   "main": "library.js",
   "repository": {
