@@ -95,14 +95,10 @@ plugin.onForceEnabled = async (users) => {
 };
 
 async function getCravatarUrl(username) {
-  // Remove all not allowed characters
-  const usernameFiltered = username
-    .replace(/[ÀÁÂÃÄÅ]/g, "A")
-    .replace(/[àáâãäå]/g, "a")
-    .replace(/[ÈÉÊË]/g, "E")
-    //.... all the rest
-    .replace(/[^a-z0-9]/gi, "");
-  return `https://cravatar.eu/avatar/${usernameFiltered}/192.png`;
+  return `https://cravatar.eu/avatar/${(username || "").replace(
+    /[^a-z0-9]/gi,
+    ""
+  )}/192.png`;
 }
 
 module.exports = plugin;
