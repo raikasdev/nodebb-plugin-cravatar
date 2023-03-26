@@ -96,7 +96,7 @@ plugin.onForceEnabled = async (users) => {
 
 async function getCravatarUrl(username) {
   return `https://cravatar.eu/avatar/${(username || "").replace(
-    /[^a-z0-9]/gi,
+    /[^a-zA-Z0-9_]/gi,
     ""
   )}/192.png`;
 }
