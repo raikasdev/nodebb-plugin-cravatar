@@ -95,7 +95,7 @@ plugin.onForceEnabled = async (users) => {
 };
 
 async function getCravatarUrl(username) {
-  return `https://cravatar.eu/avatar/${(username || "").replace(
+  return `https://cravatar.eu/helmavatar/${(username || "").replace(
     /[^a-zA-Z0-9_]/gi,
     ""
   )}/192.png`;
